@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir scripts_$(date +%m_%d_%y)
+
+exit 0

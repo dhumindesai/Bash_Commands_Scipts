@@ -1,0 +1,866 @@
+    1  who
+    2  ls
+    3  cd Desktop/
+    4  ls
+    5  mkdir linux_practice
+    6  ls
+    7  cd linux_practice/
+    8  ls
+    9  pwd
+   10  ls
+   11  cd Desktop
+   12  ;s
+   13  ls
+   14  pwd
+   15  cd /home/ddesai10/
+   16  ls
+   17  cd Desktop/
+   18  ls
+   19  pwd
+   20  who
+   21  cd ..
+   22  cd
+   23  pwd
+   24  ls
+   25  cd Desktop/
+   26  ls
+   27  cd /home/ddesai10/
+   28  ls
+   29  cd Desktop/
+   30  ls
+   31  man cp
+   32  ls
+   33  cp Tomorrow-Night.vim /usr/share/vim/vim74/colors
+   34  ls
+   35  cat Tomorrow-Night.vim /usr/share/vim/vim74/colors
+   36  logout
+   37  pwd
+   38  cd /usr/share/vim/vim74/colors/
+   39  vi Tomorrow-Night.vim 
+   40  cd /home/ddesai10/Desktop/
+   41  ls
+   42  cd linux_practice/
+   43  ls
+   44  vi test_j.java 
+   45  cd
+   46  /home
+   47  cd /home
+   48  ls
+   49  su - ddesai10
+   50  cd
+   51  pwd
+   52  ls ~
+   53  ls ~ddesai10
+   54  ls ~ddesai10/Desktop/
+   55  ls
+   56  cat anaconda-ks.cfg 
+   57  mv anaconda-ks.cfg ~ddesai10/Desktop/
+   58  logout
+   59  mv ~ddesai10/Desktop/linux_practice/ Desktop/
+   60  ls
+   61  cd Desktop/
+   62  ls
+   63  ls linux_practice/
+   64  ls demo
+   65  ls linux_practice/demo
+   66  whatis logout
+   67  logout
+   68  cd
+   69  ls
+   70  mkdir Desktop/temp
+   71  ls Desktop/
+   72  touch Desktop/temp/abc
+   73  mv -r Desktop/temp ~ddesai10/Desktop/ 
+   74  cp -r Desktop/temp ~ddesai10/Desktop/ 
+   75  logout
+   76  ls Desktop/
+   77  cp -r Desktop/linux_practice/ ~ddesai10/Desktop/
+   78  logout
+   79  su ddesai10
+   80  sudo lshw
+   81  logout
+   82  cd ~ddesai10/Desktop
+   83  ls
+   84  cd practice/
+   85  ls
+   86  cd scripts/
+   87  ls
+   88  ./firstScript
+   89  bash firstScript
+   90  ls
+   91  lll
+   92  bash firstScript
+   93  logout
+   94  cd ~ddesai10/Desktop/practice/
+   95  ls
+   96  cp scripts/firstScript /usr/bin
+   97  firstScript
+   98  ls
+   99  rm /usr/bin/firstScript 
+  100  firstScript
+  101  ./firrstScript
+  102  ./firstScript
+  103  ls
+  104  cd scripts/
+  105  firstScript
+  106  ./firstScript `
+  107  ./firstScript 
+  108  logout
+  109  su ddesai10
+  110  who
+  111  ecit
+  112  exit
+  113  cd ~ddesai10/myScripts/
+  114  ls
+  115  cd scripts_07_13_17/
+  116  ls
+  117  cd ..
+  118  ./herescript.sh 
+  119  mv herescript.sh scripts_07_13_17/
+  120  cd scripts_07_13_17/
+  121  ls
+  122  vim herescript.sh 
+  123  ls
+  124  ./herescript.sh 
+  125  who
+  126  ls
+  127  logout
+  128  visudo
+  129  usermod -aG wheel ddesai10
+  130  su ddesai10 -
+  131  logout
+  132  groups
+  133  su ddesai10 -
+  134  date
+  135  man date
+  136  date utc
+  137  date -utc
+  138  date --utc
+  139  date
+  140  sudo whoami
+  141  yum install firefox
+  142  firefox
+  143  whatis firefox
+  144  firefox www.facebook.com
+  145  xdg-open www.google.com
+  146  ls
+  147  xdg-open initial-setup-ks.cfg 
+  148  xdg-open http://www.google.com
+  149  xdg-open http://www.facebook.com
+  150  cd ..
+  151  logout
+  152  cd
+  153  ls
+  154  logout
+  155  su ddesai10
+  156  ls
+  157  man rpm
+  158  rpm -e firefox
+  159  ls
+  160  firefox
+  161  rpm -i firefox
+  162  man rpm
+  163  yum install firefox
+  164  yum tmux
+  165  yum install tmux
+  166  yum install chrome
+  167  tmax --version
+  168  tmux --version
+  169  man tmuxx
+  170  man tmux
+  171  tmux -V
+  172  man yum
+  173  yum update tmux
+  174  man yum
+  175  yum check-update 
+  176  yum check-update tmux
+  177  yum check-update python
+  178  python -V
+  179  yum install python
+  180  yum install python3.6
+  181  rpm intall python
+  182  rpm install python
+  183  rpm -i python
+  184  rpm -e tmux
+  185  tmux
+  186  ls
+  187  cd Downloads/
+  188  ls
+  189  tar tmux-2.5.tar.gz
+  190  man tar
+  191  tar -xzf tmux-2.5.tar.gz
+  192  ls
+  193  cd tmux-2.5/
+  194  ls
+  195  ./configure
+  196  sudo make install
+  197  ls
+  198  pwd
+  199  ls configure
+  200  ls -l configure
+  201  vim configure
+  202  make install
+  203  ./configure 
+  204  echo $PATH
+  205  yum groupinstall "Development tools"
+  206  echo $PATH
+  207  c
+  208  cpp
+  209  ./configure 
+  210  yum -V
+  211  man yum
+  212  yum -version tmux
+  213  man yum
+  214  whatis wget
+  215  cd
+  216  wget  no acceptable C compiler found in $PATH
+  217  wget https://stackoverflow.com/questions/19816275/no-acceptable-c-compiler-found-in-path-when-installing-python
+  218  ls
+  219  cat no-acceptable-c-compiler-found-in-path-when-installing-python 
+  220  open no-acceptable-c-compiler-found-in-path-when-installing-python 
+  221  firefox no-acceptable-c-compiler-found-in-path-when-installing-python.html 
+  222  mv no-acceptable-c-compiler-found-in-path-when-installing-python test.html
+  223  ls
+  224  firefox test.html
+  225  history
+  226  firefox
+  227  yum -y install firefox
+  228  type firefox
+  229  rpm -e firefox
+  230  type firefox
+  231  yum install firefox
+  232  firefox
+  233  firefox test.html 
+  234  x
+  235  xdg-open test.html 
+  236  ls
+  237  xdg-open test.html 
+  238  firefox www.google.com
+  239  type firefox
+  240  rm /bin/firefox
+  241  type firefox
+  242  cd bin
+  243  cd /bin
+  244  ls
+  245  cd firefox
+  246  ls -l firefoxx
+  247  ls -l firefox
+  248  type firefox
+  249  yum -y install firefox
+  250  yum -e firefox
+  251  yum --erase firefox
+  252  man yum
+  253  yum remove firefox
+  254  cd
+  255  type firefox
+  256  yum install firefox
+  257  ls
+  258  firefox
+  259  firefox test.html 
+  260  sudo firefox test.html 
+  261  ls -l test.html 
+  262  chmod 744 test.html 
+  263  ls -l test.html 
+  264  sudo firefox test.html 
+  265  l;s
+  266  whatis wget
+  267  man wget
+  268  wget -S test.html
+  269  wget -S www.google.com
+  270  ls
+  271  firefox index.html
+  272  mv index.html test.html ~ddesai10/Downloads
+  273  cd ~ddesai10/D
+  274  cd ~ddesai10/Downloads/
+  275  ls
+  276  firefox test.html 
+  277  uname -i
+  278  yum install qpt
+  279  yum install apt
+  280  yum repolist all
+  281  tmux
+  282  ls
+  283  cd
+  284  ls
+  285  cd D
+  286  cd Downloads
+  287  ls
+  288  cd tmux-2.5/
+  289  ls
+  290  ./configure 
+  291  cd ..
+  292  wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
+  293  ls
+  294  tar libevent-2.0.21-stable.tar.gz 
+  295  tar -xzvf libevent-2.0.21-stable.tar.gz 
+  296  ls
+  297  cd libevent-2.0.21-stable/
+  298  ls
+  299  ./configure && make
+  300  ls
+  301  sudo make install
+  302  cd ..
+  303  ls
+  304  cd tmux-2.5/
+  305  ls
+  306  ./configure 
+  307  make
+  308  ./configure && make
+  309  yum install sdhfjk
+  310  yum install tmux
+  311  yum install screen
+  312  yum --version
+  313  yum --version tmux
+  314  man yum
+  315  tmux -V
+  316  ./configure 
+  317  rpm -i curses
+  318  ./configure 
+  319  which tmux
+  320  which python
+  321  yum install ncurses-devel
+  322  ./configure 
+  323  tmux
+  324  l
+  325  ls
+  326  tmux
+  327  ./configure && make
+  328  tmux
+  329  git
+  330  which git
+  331  git clone https://github.com/tmux/tmux.git
+  332  tmux
+  333  cd ..
+  334  git clone https://github.com/tmux/tmux.git
+  335  ls
+  336  rmdir tmu*
+  337  cd ..
+  338  cd Desktop/
+  339  ls
+  340  git clone https://github.com/tmux/tmux.git
+  341  ls
+  342  cd tmux/
+  343  ls
+  344  ls configure.ac
+  345  ls -l configure.ac
+  346  sh autogen.sh 
+  347  ./configure 
+  348  make
+  349  tmux
+  350  ./tmux
+  351  tmux
+  352  which python
+  353  cd /usr/bin
+  354  ls
+  355  ls py*
+  356  yum install tmux
+  357  cd 
+  358  which tmux
+  359  tmux
+  360  cd usr/bin
+  361  cd /usr
+  362  cd bin
+  363  ;s
+  364  ls
+  365  ls tmux
+  366  type rmux
+  367  type tmux
+  368  ls -l tmux
+  369  vim tmux
+  370  cd 
+  371  cd Desktop/
+  372  ls
+  373  cd tmux
+  374  ls tmux
+  375  mv tmux /usr/bin
+  376  ls tmux
+  377  cd /usr/bin
+  378  ls tmux
+  379  tmux
+  380  logout
+  381  exit
+  382  su ddesai10
+  383  tmux ls
+  384  exit
+  385  yum install 7z
+  386  7za
+  387  man -k 7z
+  388  man -k 7
+  389  yum install p7zip-full
+  390  yum install p7zip
+  391  yum install p7zip-rar
+  392  yum install p7zip
+  393  wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+  394  yum install p7zip p7zip-plugins
+  395  yum install epel-
+  396  yum install epel-release
+  397  yum install p7zip p7zip-plugins
+  398  man 7zip
+  399  7zip --help
+  400  7zip -help
+  401  7z
+  402  7z --help
+  403  cleart
+  404  clear
+  405  7z
+  406  7z ls
+  407  ls
+  408  cd Do
+  409  whereis 7z
+  410  'ls
+  411  ls
+  412  cd Downloads/
+  413  ;s
+  414  ls
+  415  cd ..
+  416  cd Desktop/
+  417  ;s
+  418  ls
+  419  ls Desktop/
+  420  ls -l Desktop/
+  421  ls
+  422  cd Desktop/
+  423  ls
+  424  ls tmux/
+  425  rm tmux/*
+  426  ls tmux/
+  427  rm -y tmux/*
+  428  cd tmux
+  429  ls
+  430  rm *
+  431  man rm
+  432  rm -f *
+  433  rm -d *
+  434  rmdir *
+  435  rm */*
+  436  rm -f */*
+  437  rmdir *
+  438  ls
+  439  rm compat/*
+  440  ls
+  441  cd compat/
+  442  rmdir compar
+  443  rmdir compat
+  444  ls
+  445  cd ..
+  446  cd compat/ 
+  447  cd ..
+  448  rmdir compat/
+  449  ls -l 
+  450  df -k
+  451  cd
+  452  ls
+  453  cd Desktop/
+  454  ls
+  455  ls -l
+  456  ls -l tmux/
+  457  logout
+  458  ls
+  459  exit
+  460  exit
+  461  exit
+  462  ld
+  463  ls
+  464  cat fileInfo.txt 
+  465  clear
+  466  ls
+  467  exit
+  468  cat dshfsjkdhfhsk > dsfksdjk
+  469  echo sdh,fhsm, > saldkajsl
+  470  ls
+  471  rm sald* dsf*
+  472  ls
+  473  exit
+  474  pwd
+  475  ps aux
+  476  ps aux | grep tmux
+  477  exit
+  478  exit
+  479  ~ddesai10
+  480  cd ~ddesai10
+  481  ls
+  482  cd Desktop/
+  483  ls
+  484  cd DownloadInfo/`
+  485  cd DownloadInfo/
+  486  ls
+  487  vim fileDownloadLogs.sh 
+  488  cat 7z l unix.stackexchange.com.7z > fileInfo.txt
+  489  7z l unix.stackexchange.com.7z > fileInfo.txt
+  490  vim fileDownloadLogs.sh 
+  491  ls
+  492  rm fileInfo.txt 
+  493  ls
+  494  ./fileDownloadLogs.sh 
+  495  ls
+  496  vim fileDownloadLogs.sh 
+  497  ls
+  498  rm fileInfo.txt 
+  499  rm -f file7z/*
+  500  ;s
+  501  ls
+  502  rmdir file7z/
+  503  ls
+  504  ./fileDownloadLogs.sh 
+  505  ls
+  506  vim fileDownloadLogs.sh 
+  507  ks
+  508  ls
+  509  vim fileDownloadLogs.sh 
+  510  ls
+  511  ./fileDownloadLogs.sh 
+  512  ls
+  513  rm fileInfo.txt 
+  514  rm file7z/*
+  515  y
+  516  l\s
+  517  ls
+  518  rmdir file7z/
+  519  ls
+  520  vim fileDownloadLogs.sh 
+  521  ls
+  522  ./fileDownloadLogs.sh 
+  523  vim fileInfo.txt 
+  524  ls
+  525  vim fileDownloadLogs.sh 
+  526  rm file7z/*
+  527  rm -f fileInfo.txt 
+  528  ls
+  529  rmdir file7z/
+  530  ls
+  531  ./fileDownloadLogs.sh 
+  532  vim fileDownloadLogs.sh 
+  533  grep files fileInfo.txt | awk '{print $3 / 1024 / 1024}'
+  534  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024}'
+  535  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024} B'
+  536  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 MB}'
+  537  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024}'
+  538  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 Mb}'
+  539  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 'MB'}'
+  540  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 "MB"}'
+  541  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 " MB"}'
+  542  vim fileDownloadLogs.sh 
+  543  ls
+  544  vim clearFiles.sh
+  545  ls
+  546  chmod 744 clearFiles.sh 
+  547  ./clearFiles.sh 
+  548  ls
+  549  ./fileDownloadLogs.sh 
+  550  ./clearFiles.sh 
+  551  ls
+  552  vim fileDownloadLogs.sh 
+  553  grep files fileInfo.txt | awk '{print $4 / 1024 / 1024 " MB"}'
+  554  vim fileDownloadLogs.sh 
+  555  ls
+  556  ./fileDownloadLogs.sh 
+  557  ls
+  558  ./clearFiles.sh 
+  559  ls
+  560  vim fileDownloadLogs.sh 
+  561  ls
+  562  ./fileDownloadLogs.sh 
+  563  tmux ls
+  564  list sessions
+  565  tmux list-sessions
+  566  curl
+  567  man curl
+  568  tmux
+  569  ls
+  570  pwd
+  571  whoami
+  572  logout
+  573  tmus ls
+  574  tmux ls
+  575  ksdjla
+  576  lkasjdla
+  577  jlask
+  578  jlasd
+  579  jslak
+  580  tmux ls
+  581  quit
+  582  exit
+  583  tmux ls
+  584  exit
+  585  echo second screen session
+  586  echo first screen session
+  587  echo this is my new session
+  588  echo 0
+  589  cd ~ddesai10
+  590  cd  Desktop
+  591  ls
+  592  cd DownloadInfo
+  593  ls
+  594  rm file7z/*
+  595  ls file7z
+  596  rm file7z/*
+  597  rmdir file7z/
+  598  ls
+  599  rm unix.stackexchange.com.7z 
+  600  ls
+  601  tmux
+  602  clear
+  603  tmux
+  604  ls
+  605  cd
+  606  ls
+  607  tmux
+  608  tmux list-sessions
+  609  tmux list-sessions
+  610  tmux attach -t 2
+  611  tmux list-sessions
+  612  tmux
+  613  tmux list-sessions
+  614  tmux
+  615  tmux ls
+  616  tmux
+  617  tmux ls
+  618  cd
+  619  cd /
+  620  tmux ls
+  621  yum install screen
+  622  screen
+  623  screen -ls
+  624  ps -e | grep 6518
+  625  screen -S secondscreensession
+  626  screen ls
+  627  screen -ls
+  628  screen -r 651
+  629  screen -r second
+  630  clear
+  631  screen -ls
+  632  screen -X -S 6518 quit
+  633  screen -ls
+  634  screen
+  635  screen -ks
+  636  screen -ls
+  637  screen -S mysession
+  638  fdisk -l
+  639  fdisk /dev/sdb
+  640  fdisk -l
+  641  df -k
+  642  whatis mkfs
+  643  mkfs.ext4 /dev/sdb1
+  644  mkdir --help
+  645  mkdir /u02
+  646  mount /dev/sdb1 /u02
+  647  mkfs.ext4 /dev/sdb1
+  648  fdisk -l
+  649  mkfs.ext4 /dev/sdb1
+  650  cat /proc/partitions 
+  651  blockdev --rereadpt /dev/sdb
+  652  fdisk -l
+  653  blockdev --rereadpt /dev/sdb
+  654  cat /proc/partitions 
+  655  fdisk /dev/sdb
+  656  fdisk -l
+  657  fdisk /dev/sdb
+  658  fdisk -l
+  659  fdisk /dev/sdb
+  660  fdisk -l
+  661  fdisk /dev/sdb
+  662  fdisk -l
+  663  mkfs.ext4 /dev/sdb1
+  664  ls
+  665  cd /
+  666  ls
+  667  mount /dev/sdb1 /u02
+  668  whatis ll
+  669  l /u02
+  670  ls /u02
+  671  ls -l /u02
+  672  df -k
+  673  blkid
+  674  /media
+  675  cd /media
+  676  ;s
+  677  ls
+  678  ls -s
+  679  ls -a
+  680  cd /mnt
+  681  ls
+  682  df
+  683  cd /u02
+  684  ls
+  685  mkdir dir1
+  686  ls
+  687  cd dir1
+  688  ls
+  689  wget www.google.com
+  690  ,s
+  691  ms
+  692  ls
+  693  vim index.html
+  694  df
+  695  ls /
+  696  logout
+  697  du / | sort -rn
+  698  ncdu
+  699  yum install ncdu
+  700  ncdu
+  701  ls
+  702  ncdu /
+  703  cd /usr
+  704  ls
+  705  ncdu /usr
+  706  ncdu /usr/share
+  707  ncdu /
+  708  free -m
+  709  ncdu /
+  710  free -m
+  711  ls
+  712  cd /
+  713  ls
+  714  logout
+  715  fdisk -l
+  716  fdisk /dev/sdb
+  717  fdisk -l
+  718  mkfs.ext4 /dev/sdb1
+  719  mount /dev/sdb1 /u02
+  720  ls /u02
+  721  ls
+  722  df
+  723  fdisk -l
+  724  df 
+  725  df -k
+  726  mount /dev/sdb2
+  727  mount /dev/sdb
+  728  cd /dev/sdb
+  729  mount /dev/sdb1 /u02
+  730  df
+  731  lsblk -o
+  732  lsblk -O
+  733  lsblk -o
+  734  lsblk 
+  735  vim /etc/fstab 
+  736  lsblk 
+  737  reboot
+  738  cp /etc/fstab /etc/fstab.$(date +%Y-%m-%d)
+  739  cmp /etc/fstab /etc/fstab.$(date +%Y-%m-%d)
+  740  vim /etc/fstab
+  741  cat /etc/fstab
+  742  mount -a
+  743  mkdir /media/home
+  744  mount -a
+  745  fdir
+  746  fdisk -l
+  747  blkls
+  748  blkid
+  749  sudo rsync -aXS --progrss --exclude='/*/.gvfs' /home/. /media/home/.
+  750  sudo rsync -aXS --progress --exclude='/*/.gvfs' /home/. /media/home/.
+  751  cd
+  752  pwd
+  753  cd ~
+  754  pwd
+  755  cd ~ddesai10
+  756  pwd
+  757  mount -a
+  758  pwd
+  759  reboot
+  760  df -k
+  761  cd ~ddesai10
+  762  pwd
+  763  cd / && mv /home /old_home && mkdir /home
+  764  pwd
+  765  mv /home /old_home
+  766  /home
+  767  cd /home
+  768  ls
+  769  logout
+  770  exit
+  771  cd /
+  772  mv /home /old_home
+  773  lsof +D /home
+  774  cd ~
+  775  pwd
+  776  exit
+  777  lsof +D /home
+  778  cd 
+  779  cd /
+  780  mv /home /old_home
+  781  cat /etc/fstab
+  782  vim /etc/fstab
+  783  mv /home /old_home
+  784  mount -a
+  785  mv /home /old_home
+  786  lsof +D /home
+  787  lsof + /home
+  788  lsof  /home
+  789  lsof +LD /home
+  790  lsof +LD /old_home
+  791  ls /old_home
+  792  lsof -n
+  793  lsof -n | grep \/home\/
+  794  lsof -n | grep home
+  795  cat /proc/mounts
+  796  cat /proc/mounts | grep -o home
+  797  cat /proc/mounts | grep  home
+  798  vim /etc/fstab
+  799  mount -a
+  800  cat /proc/mounts | grep  home
+  801  logout
+  802  exit
+  803  cat /proc/mounts | grep  home
+  804  reboot
+  805  lsof -n | grep home
+  806  cd /
+  807  mv /home /old_home
+  808  ls
+  809  cat /proc/mounts
+  810  cat /proc/mounts | grep home
+  811  lsof -n | grep home
+  812  ls
+  813  mv /home /_old_home
+  814  mv /home /old_home
+  815  whatis lsof
+  816  lsof
+  817  lsof +D
+  818  lsof +D /home
+  819  lsof +D /media/home
+  820  ls
+  821  mkdir old_home
+  822  ls
+  823  rmdir old_home
+  824  ls
+  825  mv home old_home
+  826  mkdir old_home
+  827  vim /etc/fstab
+  828  lsof | grep /home
+  829  unmount /home
+  830  umount /home
+  831  mv home old_home
+  832  ls ho,e
+  833  ls home
+  834  ls /media/home
+  835  rmdir old_home
+  836  ls
+  837  ;s
+  838  ls
+  839  fuser -v /home/
+  840  systemctl stop NetworkManager
+  841  ls
+  842  mv /home /old_home
+  843  ls
+  844  cd ~
+  845  ls
+  846  pwd
+  847  cd ~ddesai10
+  848  mkdir /home
+  849  cd ~ddesai10
+  850  cat /etc/fstab
+  851  vim /etc/fstab
+  852  mount -a
+  853  ls /home
+  854  cd ~ddesai10
+  855  cd /old_home/
+  856  ls
+  857  cd ,,
+  858  cd ..
+  859  rm -rI /old_home
+  860  df -k
+  861  cd ~
+  862  ls /home
+  863  fdisk
+  864  fdisk -l
+  865  history
+  866  history > commands_$(date +%m_%d)

@@ -1,0 +1,6 @@
+#!/bin/bash
+# this is my first script
+
+clear
+echo "Hello World" 
+exit 0
